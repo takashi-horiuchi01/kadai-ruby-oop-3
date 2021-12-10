@@ -9,10 +9,6 @@ class Human < Animal
     super(name, age)
     self.hobby = hobby
   end
-  
-  def koredeiino
-    think(self.hobby)
-  end
 
 end
 
